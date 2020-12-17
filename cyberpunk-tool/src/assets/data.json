@@ -1,0 +1,69 @@
+{
+    "fde": {
+        "cyberoptics": [
+            { "name": "Infrared", "details": "See in total darkness, using heat emissions.", "humanityCost": "1", "type": "cyberoptic" },
+            { "name": "Lowlight", "details": "See in dim light, almost total darkness.", "humanityCost": "0.5", "type": "cyberoptic" },
+            { "name": "Camera", "details": "Digital Camera, shoots up to 20 images (as 2 options).", "humanityCost": "0.5", "type": "cyberoptic" },
+            { "name": "Dartgun", "details": "Poison weapon (takes 3 option spaces. Holds 1 dart)", "humanityCost": "2", "type": "cyberoptic" },
+            { "name": "Antidazzle", "details": "Immune to flash, laser blinding.", "humanityCost": "0.5", "type": "cyberoptic" },
+            { "name": "Targeting scope", "details": "+1 on all smartgun attacks.", "humanityCost": "2", "type": "cyberoptic" }
+        ],
+        "cyberarms": [
+            { "name": "Cyberarm with Med. Pistol","details": "Cyberarm with Popup Gun:  Med. Pistol.", "humanityCost": "4D6", "type": "cyberarm with gun" },
+            { "name": "Cyberarm with Light Pistol","details": "Cyberarm with Popup Gun:  Light Pistol.", "humanityCost": "4D6", "type": "cyberarm with gun" },
+            { "name": "Cyberarm with Med. Pistol","details": "Cyberarm with Popup Gun:  Med. Pistol.", "humanityCost": "4D6", "type": "cyberarm with gun" },
+            { "name": "Cyberarm with Light Submachinegun","details": "Cyberarm with Popup Gun:  Light Submachinegun.", "humanityCost": "4D6", "type": "cyberarm with gun" },
+            { "name": "Cyberarm with Very Heavy Pistol","details": "Cyberarm with Popup Gun:  Very Heavy Pistol.", "humanityCost": "4D6", "type": "cyberarm with gun" },
+            { "name": "Cyberarm with Heavy Pistol","details": "Cyberarm with Popup Gun:  Heavy Pistol.", "humanityCost": "4D6", "type": "cyberarm with gun" }
+        ],
+        "cyberaudio": [
+            { "name": "Wearman", "details": "Stero music system.", "humanityCost": "0.5", "type": "cyberaudio" },
+            { "name": "Radio Link", "details": "Radio communications up to 1 mile.", "humanityCost": "1", "type": "cyberaudio" },
+            { "name": "Phone splice", "details": "Full Cellular communications (large city only.", "humanityCost": "1", "type": "cyberaudio" },
+            { "name": "Amplified Hearing", "details": "+1 Awareness when using auditory cues.", "humanityCost": "1", "type": "cyberaudio" },
+            { "name": "Sound Editing", "details": "+2 to Awareness to overhear one specific conversation.", "humanityCost": "0.5", "type": "cyberaudio" },
+            { "name": "Digital Recording Link", "details": "Transmits sound to a digital recorder", "humanityCost": "0.5", "type": "cyberaudio" }
+        ],
+        "armour": [
+             { "name": "Heavy Leather", "details": "Covers: Arms, Torso, possibly legs.", "sp": 4, "ev": 0 },
+             { "name": "Armour Vest", "details": "Covers: Torso.", "sp": 10, "ev": 0 },
+             { "name": "Light Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 14, "ev": 0 },
+             { "name": "Light Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 14, "ev": 0 },
+             { "name": "Med. Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 18, "ev": 1 },
+             { "name": "Med. Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 18, "ev": 1 },
+             { "name": "Med. Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 18,"ev": 1 },
+             { "name": "Hvy. Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 20, "ev": 2 },
+             { "name": "Hvy. Armour Jacket", "details": "Covers: Torso, Arms.", "sp": 20, "ev": 2 },
+             { "name": "MetalGear", "details": "Covers: Whole Body.", "sp": 25, "ev": 2 }
+        ],
+        "weapons": [
+             { "name": "Knife", "details": "" },
+             { "name": "Light Pistol", "details": "" },
+             { "name": "Medium Pistol", "details": "" },
+             { "name": "Heavy Pistol", "details": "" },
+             { "name": "Heavy Pistol", "details": "" },
+             { "name": "Light SMG", "details": "" },
+             { "name": "Lt. Assault Rifle", "details": "" },
+             { "name": "Med. Assault Rifle", "details": "" },
+             { "name": "Hvy. Assault Rifle", "details": "" },
+             { "name": "Hvy. Assault Rifle", "details": "" }
+        ],
+        "cyberware4": { "name": "Big Knucks", "details": "Body Weapon (hands). 1D6+2 damage.", "humanityCost": "3D6", "type": "cyberweapon" },
+        "cyberware5": { "name": "Rippers", "details": "Body Weapon (hands). 1D6 damage (AP=knife).", "humanityCost": "3D6", "type": "cyberweapon" },
+        "cyberware6": { "name": "Implanted Fangs (Vampires)", "details": "Body Weapon (mouth). 1D6/3 damage.", "humanityCost": "3D6", "type": "cyberweapon" },
+        "cyberware7": { "name": "Slice N' Dice", "details": "Body Weapon (hands). 2D6 damage.", "humanityCost": "3D6", "type": "neuralware" },
+        "cyberware8": { "name": "Kerenzikov Boosterware +1", "details": "Adds +1 to Inititive rolls for every level bought. (+1).", "humanityCost": "1D6", "type": "neuralware" },
+        "cyberware8alt": { "name": "Kerenzikov Boosterware +2", "details": "Adds +1 to Inititive rolls for every level bought. (+2).", "humanityCost": "1D6","type": "neuralware" },
+        "cyberware9": { "name": "Speedware (Sandevistan)", "details": "Adds +3 to initiative rolls for 5 turns", "humanityCost": "2D6", "type": "neuralware" }
+    },
+
+    "style": {
+        "clothes": ["Biker leathers", "Blue jeans", "Corporate Suits", "Jumpsuits", "Miniskirts", "High Fashion", "Cammos", "Normal clothes", "Nude", "Bag Lady chic"],
+        "hairstyles": ["Mohawk", "Long & Ratty", "Short & spiked", "Wild & all over", "Bald", "Striped", "Tinted", "Neat, short", "Short, curly", "Long, straight"],
+        "affections": ["Tattoos", "Mirrorsades", "Ritual Scars", "Spiked gloves", "Nose rings", "Earrings", "Long fingernails", "Spike heeled boots", "Weird Contact Lenses", "Fingerless gloves"]
+    }
+    
+
+    
+    
+}
